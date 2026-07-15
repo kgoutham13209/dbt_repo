@@ -1,0 +1,39 @@
+BTC:
+  outputs:
+    dev:
+      account: USCOCVL-CZ91277
+      database: BTC
+      password: Goutham@8050813209
+      role: ACCOUNTADMIN
+      schema: DBT_SOM
+      threads: 1
+      type: snowflake
+      user: GOUTHAMHONG
+      warehouse: LARGE_WH
+  target: dev
+dbt_learn_repos:
+  outputs:
+    dev:
+      account: USCOCVL-CZ91277
+      database: DEMO
+      password: Goutham@8050813209
+      role: ACCOUNTADMIN
+      schema: DEMO_SCHEMA
+      threads: 1
+      type: snowflake
+      user: GOUTHAMHONG
+      warehouse: COMPUTE_WH
+  target: dev
+dbt_repo:
+  outputs:
+    dev:
+      account: USCOCVL-CZ91277
+      database: r1
+      password: Goutham@8050813209
+      role: ACCOUNTADMIN
+      schema: staging
+      threads: 1
+      type: snowflake
+      user: GOUTHAMHONG
+      warehouse: COMPUTE_WH
+  target: dev
